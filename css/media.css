@@ -1,32 +1,61 @@
 @media only screen and (min-width: 992px)
 {
 	.buttons{
+		display: flex;	
+	}
+
+	.cta__buttons{
 		flex-direction: row;
-		margin-left: 5%;
 	}
 
 	.greeting{
-		margin-left: 5%;
-		width: 30%;
+		display: flex;
+		flex-direction: column;
+		margin: 0 12% 0 0;
+		width: 35%;
 	}
 
 	.hero{
-		margin-top: 100px;
-		margin-left: 20%;	
-		border-radius: 0 50% 0 50%;
-		width: 25%;
-		overflow: hidden;
+		height: 100%;
+		width: auto;
+		overflow: initial;
+	}
+
+	.header{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+
+	.logo__bars-container{
+		display: flex;
+		width: 1200px;
+		justify-content: space-between;
 	}
 
 	.intro{
 		display: flex;
-		padding-top: 100px;
+		flex-direction: row-reverse;
+		padding-top: 70px;
+		width: 1200px;
 	}
 
 	.img_container{
-	border-radius: 0 50%;
-	height: 500px;
-	width: 20%;
-	overflow: hidden;
-}
-}
+		height: 400px;
+		margin-right: 100px;
+		width: 30%;
+		border-radius: 25% 0;
+		overflow: hidden;
+		display: flex;
+		justify-content: center;
+	}
+
+	#padthai{
+		margin-top: 200px;
+		width: 25%;
+	}
+
+	.menu_background{
+		margin-top: -50px;
+		}
+	}
