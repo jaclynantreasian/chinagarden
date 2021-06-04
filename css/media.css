@@ -1,11 +1,35 @@
 @media only screen and (min-width: 992px)
 {
 	.buttons{
-		display: flex;	
+		display: flex;
 	}
 
-	.cta__buttons{
+	.cta__button{
 		flex-direction: row;
+		width: 40%;
+	}
+
+	.hours__container{
+		display: flex;
+	}
+	
+	h5{
+        display: flex;
+		justify-content: space-evenly;
+		width: 100%;
+    }
+
+.hours{
+	width: 60%;
+}
+    .description{
+     width: 80%;    
+    }
+
+	.family__meals{
+		flex-direction: column;
+    	width: 50%;
+    	margin-right: 10%;
 	}
 
 	.greeting{
@@ -21,10 +45,19 @@
 		overflow: initial;
 	}
 
+	.hours{
+		display: flex;
+		flex-direction: column;
+	}
+
 	.header{
 		width: 100%;
 		display: flex;
 		justify-content: center;
+	}
+
+	#two{
+	margin-left: 30px
 	}
 
 	.logo__bars-container{
@@ -32,7 +65,9 @@
 		width: 1200px;
 		justify-content: space-between;
 	}
-
+    .menu{
+        display: flex;
+    }
 	.intro{
 		display: flex;
 		flex-direction: row-reverse;
@@ -50,12 +85,34 @@
 		justify-content: center;
 	}
 
-	#padthai{
-		margin-top: 200px;
-		width: 25%;
+	.specials{
+		display: flex;
+		flex-direction: row;
+		padding-top: 0;
+		width: 1200px;
+    }
+
+	.menu__container{
+		display: flex;
+    	flex-direction: row;
+    	align-items: center;
+    	padding: 30px;
+}
+
+	.padthai{
+		margin: 12% 0 12% 30%;
+    	width: 60%;
+	}
+
+	.padthai_image{
+		width: 70%;
+	
 	}
 
 	.menu_background{
 		margin-top: -50px;
-		}
+		width: 100%;
+	}
+
+
 	}

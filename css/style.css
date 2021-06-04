@@ -1,5 +1,5 @@
 body{
-    box-sizing: border-box;
+ box-sizing: border-box;
 }
 
 .container{
@@ -20,7 +20,7 @@ a{
 	overflow: hidden;
 }
 
-.cta__button{
+.cta__button, .cta__button2{
     text-align: center;
     font-family: 'Quicksand', sans-serif;
     font-size: 16px;
@@ -76,7 +76,6 @@ a{
 	padding: 20px;
 }
 
-
 .first{
 	padding-bottom: 5px;
 }
@@ -95,12 +94,7 @@ a{
     z-index: 20;
     color: white;
     justify-content: space-between;
-    
-}
-.header__logo-container {
-	display: flex;
-	justify-content: flex-start;
-}
+ }
 
 .header__button{
     margin: 10px;
@@ -121,6 +115,10 @@ a{
 	justify-content: flex-start;
 }
 
+.header__logo-container{
+	display: flex;
+}
+
 .hero{
 	background-size: cover;
 	position: relative;
@@ -128,27 +126,29 @@ a{
 	width: 100%;
 }
 
-h5{
+p{
 	font-family:'Quicksand', sans-serif;
 	line-height: 1.5em;
-	padding: 10px 20px 30px 30px}
+	padding: 20px 0;
+	width: 90%;
+    margin: 0 5%;
+}
 
 .highlight{
 	font-size: 2em;
     font-family: 'Pacifico', sans-serif;
     padding: 25px 0 20px 0;
     color: #435C2A;
-	margin-left: 30px;
 	line-height: 1.5em;
-	}
+	margin: 0 5%;	
+}
 
 .highlight.second{
-	margin-left: 0px 20px 0 0;
-
+	padding-top: 100px;
 }
 
 .hours{
-text-align: center;   
+text-align: center;
 
   }
 
@@ -161,21 +161,21 @@ text-align: center;
 	height: 100%;
 }
 
+.logo__bars-container{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
 .menu_background{
 	background-color:#F3F4F1;
+	width: 100%;
 }
 
-.menu_items{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+.menu_items_container{
 	padding-top: 30px;
 }
-
-
-.last{
-	padding: 0 30 30 30px;
-}
+	
 
 .logo__text{
 		padding: 25px 5px;
@@ -184,42 +184,51 @@ text-align: center;
 }
 
 .seedlings{
-	display: inline-block;
+	display: flex;
+	flex-direction: row;
 	padding: 30px 5px 20px 0;
 }
 
 .specials{
-	display: flex;
-	flex-direction: column;
 	align-items: center;
 	padding-top: 30px;
 }
 
-h5.subheader{
+.subheader{
 	font-size: 1.5em;
 	font-family: 'Pacifico', sans-serif;
 	color: #435C2A;
-	padding-top: 15px;
-	padding-bottom: 0;
+	text-align: center;
+    line-height: 1.5em;
+	padding: 20px 0 0 0;
+	width: 100%;
 }
+
 .testimonials{
 	text-align: center;
-	display: inline-block;
 
 }
 
-#padthai{
+.padthai_image{
+	display: flex;
+	justify-content: center;
+}
+
+
+.padthai{
 	border-radius: 50%;
 	overflow: hidden;
 	width: 50%;
-	box-shadow: 5px 5px #ce2e1e9;
 }
 
 #hourslocation{
 	padding-bottom: 30px;
 }
 
+#threeButton{
+	background-color: #59941D;
+}
+
 .quote{
 	display: inline-block;
 }
-
