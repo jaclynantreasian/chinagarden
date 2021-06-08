@@ -8,19 +8,20 @@
 		flex-direction: row;
 		width: 40%;
 	}
-
-	.hours__container{
+	.flex-row{
 		display: flex;
+		flex-direction: row;
 	}
+
 	
 	h5{
-        display: flex;
 		justify-content: space-evenly;
 		width: 100%;
     }
 
 .hours{
 	width: 60%;
+	flex-direction: row;
 }
     .description{
      width: 80%;    
@@ -31,7 +32,10 @@
     	width: 50%;
     	margin-right: 10%;
 	}
-
+	.flex-col{
+		display: flex;
+		flex-direction: column;
+	}
 	.greeting{
 		display: flex;
 		flex-direction: column;
@@ -43,11 +47,6 @@
 		height: 100%;
 		width: auto;
 		overflow: initial;
-	}
-
-	.hours{
-		display: flex;
-		flex-direction: column;
 	}
 
 	.header{
@@ -85,6 +84,18 @@
 		justify-content: center;
 	}
 
+	.img_container2{
+		margin-top: 100px;
+		height: 400px;
+		margin-right: 100px;
+		width: 40%;
+		border-radius: 25% 0;
+		overflow: hidden;
+		display: flex;
+		justify-content: center;
+	}
+
+
 	.specials{
 		display: flex;
 		flex-direction: row;
@@ -98,9 +109,12 @@
     	align-items: center;
     	padding: 30px;
 }
+	.menu_items_container{
+		width: 25%;
+	}
 
 	.padthai{
-		margin: 12% 0 12% 30%;
+		margin: 12% 12% 12% 30%;
     	width: 60%;
 	}
 
